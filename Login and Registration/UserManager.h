@@ -22,7 +22,6 @@ public:
     }
 
     bool loginUser(string user, string pass) {
-        cout << "\n========== LOGIN ==========\n";
         for (int i = 0; i < users.size(); i++) {
             if (users[i].getUsername() == user && users[i].getPassword() == pass) {
                 cout << "Login Successful!\n";
@@ -41,7 +40,6 @@ public:
     }
 
     void searchUser(string user) {
-        cout << "\n========== SEARCH USER ==========\n";
         for (int i = 0; i < users.size(); i++) {
             if (users[i].getUsername() == user) {
                 cout << "User Found!\n";

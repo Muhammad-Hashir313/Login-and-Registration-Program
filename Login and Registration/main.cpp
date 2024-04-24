@@ -28,6 +28,7 @@ int main() {
             break;
 
         case '2':
+            cout << "\n========== LOGIN ==========\n";
             cout << "Enter Username: ";
             cin >> username;
             cout << "Enter Password: ";
@@ -43,6 +44,7 @@ int main() {
             break;
 
         case '4':
+            cout << "\n========== SEARCH USER ==========\n";
             cout << "Enter username: ";
             cin >> username;
 
@@ -51,6 +53,7 @@ int main() {
             break;
 
         case '5':
+            cout << "\n========== DELETE USER ==========\n";
             cout << "Enter Username: ";
             cin >> username;
             cout << "Enter Password: ";
